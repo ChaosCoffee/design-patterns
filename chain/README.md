@@ -6,3 +6,6 @@ handles it.**
 
 **使多个对象都有机会处理请求， 从而避免了请求的发送者和接受者之间的耦合关
 系。 将这些对象连成一条链， 并沿着这条链传递该请求， 直到有对象处理它为止。**
+
+## 实例类图  
+![image](https://raw.githubusercontent.com/ChaosCoffee/design-patterns/master/docs/images/chain/chain.png)
