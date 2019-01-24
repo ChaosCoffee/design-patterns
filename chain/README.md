@@ -9,3 +9,7 @@ handles it.**
 
 ## 实例类图  
 ![image](https://raw.githubusercontent.com/ChaosCoffee/design-patterns/master/docs/images/chain/chain.png)
+
+## 说明  
+
+**TODO...**
