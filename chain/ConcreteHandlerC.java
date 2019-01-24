@@ -2,8 +2,8 @@ package chain;
 
 public class ConcreteHandlerC extends Handler {
     @Override
-    public Response echo() {
-        return new Response("处理 C--->完成");
+    public Response echo(Request request) {
+        return new Response("处理 C--->完成，处理用户:" + request.getName());
     }
 
     @Override

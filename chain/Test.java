@@ -5,6 +5,7 @@ public class Test {
     public static void main(String[] args) {
         //请求参数
         Request request = new Request(Handler.Level.THIRD);
+        request.setName("chaoscoffee");
         //执行器
         HandlerExecutor executor = new HandlerExecutor();
         //返回信息

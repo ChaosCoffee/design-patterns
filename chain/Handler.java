@@ -10,7 +10,7 @@ public abstract class Handler {
         }
         Response response = null;
         if (this.getHandlerLevel() == request.getLevel()) {
-            response = this.echo();
+            response = this.echo(request);
         } else {
             if (this.nextHandler != null) {
                 response = this.nextHandler.handlerMessage(request);
@@ -25,7 +25,7 @@ public abstract class Handler {
         this.nextHandler = handler;
     }
 
-    public abstract Response echo();
+    public abstract Response echo(Request request);
 
     public abstract Level getHandlerLevel();
 
